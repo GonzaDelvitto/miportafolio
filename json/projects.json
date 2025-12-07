@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Moderno",
+      "description": "Tienda online responsive con carrito de compras interactivo, filtros avanzados y experiencia de usuario optimizada.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "TailwindCSS"],
+      "image": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=600",
+      "demoUrl": "https://demo-ecommerce.com",
+      "githubUrl": "https://github.com/gonzalo/ecommerce",
+      "category": "frontend"
+    },
+    {
+      "id": 2,
+      "title": "Dashboard Interactivo",
+      "description": "Panel de control con gráficos dinámicos, tablas interactivas y visualización de datos en tiempo real.",
+      "technologies": ["JavaScript", "Chart.js", "CSS3"],
+      "image": "https://images.unsplash.com/photo-1623679072629-3aaa0192a391?w=600",
+      "demoUrl": "https://demo-dashboard.com",
+      "githubUrl": "https://github.com/gonzalo/dashboard",
+      "category": "frontend"
+    },
+    {
+      "id": 3,
+      "title": "Landing Page Premium",
+      "description": "Página de aterrizaje moderna con animaciones fluidas, diseño atractivo y optimización para conversiones.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "image": "https://images.unsplash.com/photo-1644088379091-d574269d422f?w=600",
+      "demoUrl": "https://demo-landing.com",
+      "githubUrl": "https://github.com/gonzalo/landing",
+      "category": "frontend"
+    },
+    {
+      "id": 4,
+      "title": "Portafolio Creativo",
+      "description": "Portafolio interactivo para artistas y diseñadores con galería de imágenes y efectos visuales impactantes.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "image": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=600",
+      "demoUrl": "https://demo-portfolio.com",
+      "githubUrl": "https://github.com/gonzalo/portfolio",
+      "category": "frontend"
+    },
+    {
+      "id": 5,
+      "title": "App de Gestión",
+      "description": "Aplicación web para gestión de tareas con drag & drop, categorías personalizadas y diseño intuitivo.",
+      "technologies": ["JavaScript", "LocalStorage", "CSS Grid"],
+      "image": "https://images.unsplash.com/photo-1623679072629-3aaa0192a391?w=600",
+      "demoUrl": "https://demo-app.com",
+      "githubUrl": "https://github.com/gonzalo/task-app",
+      "category": "frontend"
+    },
+    {
+      "id": 6,
+      "title": "Blog Responsive",
+      "description": "Blog moderno con diseño adaptable, optimizado para SEO y excelente experiencia de lectura.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "image": "https://images.unsplash.com/photo-1644088379091-d574269d422f?w=600",
+      "demoUrl": "https://demo-blog.com",
+      "githubUrl": "https://github.com/gonzalo/blog",
+      "category": "frontend"
+    }
+  ],
+  "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap",  "Git", "Responsive Design", "CSS Grid", "Flexbox"],
+  "profile": {
+    "name": "Gonza Delvitto",
+    "nickname": "Gonza",
+    "title": "Desarrollador Frontend",
+    "bio": "Transformo ideas en experiencias web interactivas y atractivas. Me especializo en crear sitios web modernos que combinan funcionalidad y diseño.",
+    "email": "gonzalodelvitto17@gmail.com",
+    "phone": "+54 (11) 6678-4500",
+    "location": "Argentina"
+  }
+}

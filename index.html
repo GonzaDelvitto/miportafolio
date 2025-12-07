@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Gonzalo - Desarrollador Frontend especializado en HTML, CSS y JavaScript">
+    <title>Gonza - Desarrollador Frontend</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="logo-icon"></></span>
+                 <span class="logo-text">Mi Portafolio</span>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#hero" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre mí</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Proyectos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__social">
+                    <a href="https://github.com/GonzaDelvitto?tab=repositories" target="_blank" rel="noopener noreferrer" class="nav__social-link">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <!-- <a href="https://linkedin.com/in/gonzalo" target="_blank" rel="noopener noreferrer" class="nav__social-link">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a> -->
+                   <!-- <a href="mailto:gonzalodelvitto@gmail.com" class="nav__social-link">
+                       <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                       <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                          </svg>
+                        </a> -->
+
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Why Website Section -->
+    <section class="why-website" id="why-website">
+        <div class="animated-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="why-website__header fade-in">
+                <span class="badge">✨ Tu Negocio Merece Brillar</span>
+                <h1 class="why-website__title">
+                    ¿Por qué necesitas un<br>
+                    <span class="gradient-text">Sitio Web Profesional?</span>
+                </h1>
+                <p class="why-website__subtitle">
+                    En el mundo digital actual, tener presencia online no es opcional. Es la clave para hacer crecer tu comercio, emprendimiento o marca.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card fade-up">
+                    <div class="benefit-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-card__title">Presencia Online 24/7</h3>
+                    <p class="benefit-card__description">Tu negocio disponible las 24 horas, los 7 días de la semana, llegando a clientes en cualquier momento.</p>
+                </div>
+
+                <div class="benefit-card fade-up">
+                    <div class="benefit-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-card__title">Crecimiento de Ventas</h3>
+                    <p class="benefit-card__description">Aumenta tus ventas expandiendo tu alcance más allá de las limitaciones físicas.</p>
+                </div>
+
+                <div class="benefit-card fade-up">
+                    <div class="benefit-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75M13 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-card__title">Alcance Global</h3>
+                    <p class="benefit-card__description">Conecta con clientes de todo el mundo y expande tu mercado sin fronteras.</p>
+                </div>
+
+                <div class="benefit-card fade-up">
+                    <div class="benefit-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-card__title">Imagen Profesional</h3>
+                    <p class="benefit-card__description">Genera confianza y credibilidad con una presencia digital moderna y profesional.</p>
+                </div>
+
+                <div class="benefit-card fade-up">
+                    <div class="benefit-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 1 1-8 0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-card__title">Vende Sin Límites</h3>
+                    <p class="benefit-card__description">Muestra tus productos o servicios de manera atractiva y vende online fácilmente.</p>
+                </div>
+
+                <div class="benefit-card fade-up">
+                    <div class="benefit-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-card__title">Ventaja Competitiva</h3>
+                    <p class="benefit-card__description">Destaca entre la competencia con una web única que refleje tu marca.</p>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <p>Descubre cómo puedo ayudarte</p>
+                <div class="arrow-down">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <div class="hero__blob hero__blob-1"></div>
+            <div class="hero__blob hero__blob-2"></div>
+            <div class="hero__blob hero__blob-3"></div>
+            <div class="floating-icon floating-icon-1">
+                <svg width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <polyline points="16 18 22 12 16 6" stroke-width="2"/>
+                    <polyline points="8 6 2 12 8 18" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="floating-icon floating-icon-2">
+                <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 19l7-7 3 3-7 7-3-3z" stroke-width="2"/>
+                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" stroke-width="2"/>
+                    <path d="M2 2l7.586 7.586" stroke-width="2"/>
+                    <circle cx="11" cy="11" r="2" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="floating-icon floating-icon-3">
+                <svg width="56" height="56" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <span class="hero__badge fade-in"> Bienvenido a mi Portafolio</span>
+                    <h2 class="hero__greeting fade-in-delayed">Hola, mi nombre es</h2>
+                    <h1 class="hero__name fade-in-scale">
+                        <span class="gradient-text-animated">Gonza</span>
+                    </h1>
+                    <h2 class="hero__title fade-in-delayed-2">Soy Desarrollador Frontend</h2>
+                    <p class="hero__description fade-in-delayed-3">
+                        Transformo ideas en experiencias web interactivas y atractivas. Me especializo en crear sitios web modernos que combinan funcionalidad y diseño.
+                    </p>
+                    <div class="hero__buttons fade-in-delayed-4">
+                        <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="#contact" class="btn btn-secondary">Contáctame</a>
+                    </div>
+                </div>
+
+                <div class="hero__image fade-in-scale-delayed">
+                    <div class="hero__image-wrapper">
+                        <div class="hero__image-glow"></div>
+                        <img src="./img/yoentraje.jpg" alt="Gonzalo - Desarrollador Frontend" class="hero__photo">
+                        <div class="hero__badge-icon">
+                            <svg width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+                                <polyline points="16 18 22 12 16 6" stroke-width="2" stroke="white" fill="none"/>
+                                <polyline points="8 6 2 12 8 18" stroke-width="2" stroke="white" fill="none"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header fade-in-view">
+                <h2 class="section-title">
+                    <span class="gradient-text">Sobre Mí</span>
+                </h2>
+                <p class="section-subtitle">
+                    Soy Gonzalo, un desarrollador frontend apasionado por crear experiencias digitales que marquen la diferencia. Mi objetivo es ayudar a negocios y emprendedores a destacar en el mundo digital con sitios web profesionales, modernos y efectivos.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card fade-up-view">
+                    <div class="skill-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <polyline points="16 18 22 12 16 6" stroke-width="2"/>
+                            <polyline points="8 6 2 12 8 18" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Desarrollo Web</h3>
+                    <p class="skill-card__description">
+                        Experto en HTML5, CSS3, JavaScript y las últimas tecnologías web para crear sitios modernos y funcionales.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-up-view">
+                    <div class="skill-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke-width="2"/>
+                            <line x1="3" y1="9" x2="21" y2="9" stroke-width="2"/>
+                            <line x1="9" y1="21" x2="9" y2="9" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Maquetación Avanzada</h3>
+                    <p class="skill-card__description">
+                        Creación de layouts profesionales con CSS Grid, Flexbox y técnicas modernas de maquetación web.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-up-view">
+                    <div class="skill-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2" stroke-width="2"/>
+                            <line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Diseño Responsive</h3>
+                    <p class="skill-card__description">
+                        Sitios web que se adaptan perfectamente a cualquier dispositivo, desde móviles hasta pantallas grandes.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-up-view">
+                    <div class="skill-card__icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-card__title">Optimización Web</h3>
+                    <p class="skill-card__description">
+                        Enfoque en rendimiento, carga rápida y mejores prácticas para una navegación fluida y eficiente.
+                    </p>
+                </div>
+            </div>
+
+            <div class="technologies fade-in-view">
+                <h3 class="technologies__title">Tecnologías y Herramientas</h3>
+                <div class="technologies__grid" id="tech-grid">
+                    <!-- Se llenará con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header fade-in-view">
+                <h2 class="section-title">
+                    <span class="gradient-text">Mis Proyectos</span>
+                </h2>
+                <p class="section-subtitle">
+                    Una selección de proyectos frontend en los que he trabajado, demostrando mis habilidades en desarrollo web moderno.
+                </p>
+            </div>
+
+            <div class="projects__filters fade-in-view">
+                <!-- <button class="filter-btn active" data-filter="all">Todos los Proyectos</button> -->
+                <!-- <button class="filter-btn" data-filter="frontend">Frontend</button> -->
+            </div>
+
+            <div class="projects__grid" id="projects-grid">
+                <!-- Se llenará con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header fade-in-view">
+                <h2 class="section-title">
+                    <span class="gradient-text">Contacto</span>
+                </h2>
+                <p class="section-subtitle">
+                    ¿Tienes un proyecto en mente? ¡Hablemos! Estoy disponible para ayudarte a crear tu presencia digital.
+                </p>
+            </div>
+
+            <div class="contact__content">
+                <div class="contact__info fade-in-left">
+                    <h3 class="contact__info-title">Información de Contacto</h3>
+                    
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="contact__item-label">Gmail</p>
+                            <a href="mailto:gonzalo@email.com" class="contact__item-value">gonzalodelvitto17@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="contact__item-label">Teléfono</p>
+                            <p class="contact__item-value">+54 (11) 6678-4500</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-width="2"/>
+                                <circle cx="12" cy="10" r="3" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="contact__item-label">Ubicación</p>
+                            <p class="contact__item-value">Argentina</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__availability">
+                        <h4>Disponibilidad</h4>
+                        <p>Actualmente disponible para proyectos freelance. ¡Hagamos realidad tu idea!</p>
+                    </div>
+                </div>
+
+                <form class="contact__form fade-in-right" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__text">
+                    Hecho con 
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" class="heart-icon">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                    por Gonzalo
+                </p>
+                <p class="footer__copyright">© 2025 Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
