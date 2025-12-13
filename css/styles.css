@@ -1,4 +1,4 @@
-/* ====================================
+agregale todo a este css  y asegurate ajustar el css para que se vea bien las letras y todo si hace falta cambia algun color /* ====================================  
    RESET
    ==================================== */
 * {
@@ -831,38 +831,103 @@ button {
 /* ====================================
    CONTACT SECTION
    ==================================== */
+
+/* =====================================================
+   CONTACT SECTION (MEJORADA Y CENTRADA)
+   ===================================================== */
+
 .contact {
     padding: 6rem 0;
     background: linear-gradient(135deg, #1e40af, #2563eb);
     color: #dbeafe;
+    text-align: center;
 }
 
+/* Contenedor general de info + form */
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+/* -----------------------------
+   INFO DE CONTACTO
+   ----------------------------- */
+.contact__info {
+    max-width: 600px;
+}
+
+.contact__info-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    color: #f8fafc;
+}
+
+.contact__item {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.contact__item-label {
+    font-size: 0.85rem;
+    color: rgba(219, 234, 254, 0.7);
+}
+
+.contact__item-value {
+    font-size: 1rem;
+    color: #f1f5f9;
+    font-weight: 500;
+}
+
+/* -----------------------------
+   FORMULARIO
+   ----------------------------- */
 .contact__form {
     max-width: 600px;
+    width: 100%;
     margin: 0 auto;
 }
 
+.contact__form label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+/* Inputs y textarea */
 .contact__input,
 .contact__textarea {
     width: 100%;
     padding: 1rem;
-    margin-bottom: 1.5rem;
     border-radius: 0.75rem;
-    border: 1px solid #3b82f6;
-    background: transparent;
-    color: #dbeafe;
+    border: 1px solid rgba(147, 197, 253, 0.4);
+    background: rgba(15, 23, 42, 0.55);
+    color: #f8fafc;
     font-size: 1rem;
     resize: none;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+    color: rgba(203, 213, 225, 0.6);
 }
 
 .contact__input:focus,
 .contact__textarea:focus {
     outline: none;
     border-color: #93c5fd;
-    box-shadow: 0 0 10px #93c5fd;
+    box-shadow: 0 0 12px rgba(147, 197, 253, 0.5);
 }
 
+/* Botón */
 .contact__button {
     background: linear-gradient(135deg, #2563eb, #3b82f6);
     color: white;
@@ -885,6 +950,18 @@ button {
 .contact__button:active {
     transform: translateY(1px);
     box-shadow: 0 3px 12px rgba(37, 99, 235, 0.5);
+}
+
+/* -----------------------------
+   RESPONSIVE
+   ----------------------------- */
+@media (max-width: 768px) {
+    .contact__item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.25rem;
+    }
 }
 
 /* ====================================
