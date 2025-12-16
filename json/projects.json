@@ -25,10 +25,10 @@
     {
       "id": 6,
       "title": "Blog Responsive",
-      "description": "Blog moderno con diseño adaptable, optimizado para SEO y excelente experiencia de lectura.",
-      "technologies": ["HTML5", "CSS", "JavaScript"],
-      "image": "https://images.unsplash.com/photo-1644088379091-d574269d422f?w=600",
-      "demoUrl": "https://demo-blog.com",
+      "description": "Blog moderno con diseño adaptable  y excelente experiencia de lectura.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "img/blogmessi.png",
+      "demoUrl": "https://gonzadelvitto.github.io/Lionel-Messi---Mundial-2022/index.html",
       "githubUrl": "https://github.com/gonzalo/blog",
       "category": "FrontEnd"
     }
